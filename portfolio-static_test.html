@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            /* GENERAL UTILITIES */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;                
+            }
+            body {
+                background-color: rgb(23, 23, 23);
+                font-family: 'Work Sans', sans-serif;
+            }            
+            .container {
+                width: 80vw;
+                margin: 0 auto;
+            }
+
+            /* FLEX UTILITIES */
+            .flex-row {
+                display: flex;
+                flex-direction: row;
+            }
+            .flex-column {
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* WIDTH UTILITIES */
+            .w-full {
+                width: 100%;
+            }
+
+            /* PADDING LEFT UTILITIES */
+            .pl-05 {
+                padding-left: .5%;
+            }
+            .pl-1 {
+                padding-left: 1%;
+            }
+            /* PADDING TOP UTILITIES */
+            .pt-1half {
+                padding-top: 1.5%;
+            }
+            /* PADDING Y UTILITIES */
+            .py-1 {
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+            .py-1half {
+                padding-top: 1.5%;
+                padding-bottom: 1.5%;
+            }
+
+            /* DISPLAY UTILITIES */
+            .display-none {
+                display: none;
+            }
+            
+            /* FONT SIZE UTILITIES */
+            .font-size-05rem {
+                font-size: .5rem;
+            }
+            .font-size-07rem {
+                font-size: .7rem;
+            }
+            .font-size-08rem {
+                font-size: .8rem;
+            }
+            .font-size-1rem {
+                font-size: 1rem;
+            }
+            /* FONT WEIGHT UTILITIES */
+            .font-weight-700 {
+                font-weight: 600;
+            }
+            /* FONT COLOR UTILITIES */
+            .text-white {
+                color: #FFFFFF;
+            }
+
+            /* BACKGROUND COLOR UTILITIES */
+            .bg-dark-500 {
+                background-color: rgb(49, 48, 50);
+            }
+            .bg-dark-800 {
+                background-color: rgb(33, 33, 33);
+            }
+            .bg-violet-200 {
+                background-color: rgb(212, 165, 255);
+            }
+
+            /* OPACITY UTILITIES */
+            .opacity-0 {
+                opacity: 0;
+            }
+            
+            /* BORDER RADIUS UTILITIES */
+            .rounded-04 {
+                border-radius: .4rem;
+            }
+
+            /* TRANSITIONS UTILITIES */
+            .gantt-bar {
+                transition: all .3s;
+            }
+            .gantt-bar:hover {
+                padding: 1.5% 2%;
+                background-color: rgb(108, 248, 236);
+                color: rgb(23, 23, 23);
+                border-radius: .6rem;
+            }
+            .more-info {
+                transition:
+                    display .1s,
+                    opacity .6s,
+                    color .2s;
+            }
+            .gantt-bar:hover > .more-info {
+                opacity: 1;
+                color: rgb(23, 23, 23);
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="gantt-bar flex-column py-1 pl-1 rounded-04 font-size-07rem font-weight-700 bg-dark-500 text-white"  id="lovingLives">
+                <div>Loving lives</div>
+                <div class="more-info display-none opacity-0">
+                    <span id="lovingLivesDuration"></span>
+                </div>                    
+            </div>
+        
+            <div class="gantt-bar flex-column py-1 pl-1 rounded-04 font-size-07rem font-weight-700 bg-dark-500 text-white"  id="buddy">
+                <div>Buddyguide</div>
+                <div class="more-info display-none opacity-0">
+                    <span id="buddyDuration"></span>
+                </div>                    
+            </div>
+
+            <div class="gantt-bar flex-column py-1 pl-1 rounded-04 font-size-07rem font-weight-700 bg-dark-500 text-white" id="loophly">
+                <div>Lophly</div>
+                <div class="more-info display-none opacity-0">
+                    <span id="lophlyDuration"></span>
+                </div>                    
+            </div>
+            
+            <div class="gantt-bar flex-column py-1 pl-1 rounded-04 font-size-07rem font-weight-700 bg-dark-500 text-white" id="kallisto">
+                <div>Kallisto</div>
+                <div class="more-info display-none opacity-0">
+                    <span id="kallistoDuration"></span>
+                </div>                    
+            </div>
+
+            <div class="gantt-bar flex-column py-1 pl-1 rounded-04 font-size-07rem font-weight-700 bg-dark-500 text-white"  id="vertical">
+                <div>Vertical</div>
+                <div class="more-info display-none opacity-0">
+                    <span id="verticalDuration"></span>
+                </div>                    
+            </div>
+
+            <div class="gantt-bar flex-column py-1 pl-1 rounded-04 font-size-07rem font-weight-700 bg-dark-500 text-white" id="midly">
+                <div>Midly</div>
+                <div class="more-info display-none opacity-0">
+                    <span id="midlyDuration"></span>
+                </div>                    
+            </div> 
+        </div>
+
+        
+
+        
+
+
+        <script>
+            // gantt bars
+            var line = document.getElementById("line");
+            var lovingLives = document.getElementById("lovingLives");
+            var buddy = document.getElementById("buddy");            
+            var loophly = document.getElementById("loophly");
+            var kallisto = document.getElementById("kallisto");
+            var midly = document.getElementById("midly");
+            var vertical = document.getElementById("vertical");
+
+            // info
+            var durationLovingLives = document.getElementById("lovingLivesDuration");
+            var durationBuddy = document.getElementById("buddyDuration");
+            var durationLoophly = document.getElementById("lophlyDuration");
+            var durationKallisto = document.getElementById("kallistoDuration");
+            var durationVertical = document.getElementById("verticalDuration");
+            var durationMidly = document.getElementById("midlyDuration");
+
+            // extreme points
+            var todayDate = new Date();
+            var startDate = new Date('10/01/2017');
+
+            // starting dates            
+            var lovingLivesStart = new Date('10/01/2017');
+            var buddyStart = new Date('05/04/2018');
+            var loophlyStart = new Date('10/01/2018');
+            var kallistoStart = new Date('03/01/2019');
+            var midlyStart = new Date('01/01/2020');
+            var verticalStart = new Date('05/01/2021');
+
+            // ending dates
+            var lovingLivesEnd = new Date('05/04/2018');
+            var buddyEnd = new Date('01/31/2019');
+            var loophlyEnd = new Date('04/01/2019');
+            var kallistoEnd = new Date('02/28/2021');
+            var midlyEnd = new Date();
+            var verticalEnd = new Date();
+            
+            // time frames
+            var timePassed = Math.round((todayDate.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            var lovingLivesTimeWorked = Math.round((lovingLivesEnd.getTime() - lovingLivesStart.getTime()) / (1000 * 3600 * 24));
+            var lovingLivesTimeWait = Math.round((lovingLivesStart.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            var buddyTimeWorked = Math.round((buddyEnd.getTime() - buddyStart.getTime()) / (1000 * 3600 * 24));
+            var buddyTimeWait = Math.round((buddyStart.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            var loophlyTimeWorked = Math.round((loophlyEnd.getTime() - loophlyStart.getTime()) / (1000 * 3600 * 24));
+            var loophlyTimeWait = Math.round((loophlyStart.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            var kallistoTimeWorked = Math.round((kallistoEnd.getTime() - kallistoStart.getTime()) / (1000 * 3600 * 24));
+            var kallistoTimeWait = Math.round((kallistoStart.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            var midlyTimeWorked = Math.round((midlyEnd.getTime() - midlyStart.getTime()) / (1000 * 3600 * 24));
+            var midlyTimeWait = Math.round((midlyStart.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            var verticalTimeWorked = Math.round((verticalEnd.getTime() - verticalStart.getTime()) / (1000 * 3600 * 24));
+            var verticalTimeWait = Math.round((verticalStart.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
+
+            
+            // time worked in %
+            var lovingLivesTimeWorkedPerc = Math.round(lovingLivesTimeWorked / timePassed * 100);
+            var lovingLivesTimeWaitPerc = Math.round(lovingLivesTimeWait / timePassed * 100);
+
+            var buddyTimeWorkedPerc = Math.round(buddyTimeWorked / timePassed * 100);
+            var buddyTimeWaitPerc = Math.round(buddyTimeWait / timePassed * 100);           
+
+            var loophlyTimeWorkedPerc = Math.round(loophlyTimeWorked / timePassed * 100);
+            var loophlyTimeWaitPerc = Math.round(loophlyTimeWait / timePassed * 100);
+
+            var kallistoTimeWorkedPerc = Math.round(kallistoTimeWorked / timePassed * 100);
+            var kallistoTimeWaitPerc = Math.round(kallistoTimeWait / timePassed * 100);
+            
+            var midlyTimeWorkedPerc = Math.round(midlyTimeWorked / timePassed * 100);
+            var midlyTimeWaitPerc = Math.round(midlyTimeWait / timePassed * 100);
+
+            var verticalTimeWorkedPerc = Math.round(verticalTimeWorked / timePassed * 100);
+            var verticalTimeWaitPerc = Math.round(verticalTimeWait / timePassed * 100);
+
+            
+            // function that calculates the width of the bar and the distance from the starting point and applies the corresponding styles to each bar
+            function barSpecs(project, timePercent) {
+                project.style.width = timePercent + "%";
+                project.style.marginLeft = timePercent + "%";
+            }
+
+            /*
+
+            var projects = [
+                {
+                    'project': lovingLives,
+                    'time_percent': lovingLivesTimeWorkedPerc
+                },{
+                    'project': buddy,
+                    'time_percent': buddyLivesTimeWorkedPerc
+                },{
+                    'project': loophly,
+                    'time_percent': loophlyLivesTimeWorkedPerc
+                },{
+                    'project': kallistoLives,
+                    'time_percent': kallistoTimeWorkedPerc
+                },{
+                    'project': vertical,
+                    'time_percent': verticalTimeWorkedPerc
+                },{
+                    'project': midly,
+                    'time_percent': midlyTimeWorkedPerc
+                },
+            ]
+
+            for ( i = 0; i <= projects.length; i++ ) {
+                barSpecs(projects[i].project, projects[i].time_percent);
+            }
+            */
+
+            
+            // applying styles (width and margin left)
+            lovingLives.style.width = lovingLivesTimeWorkedPerc + "%";
+            lovingLives.style.marginLeft = lovingLivesTimeWaitPerc + "%";
+
+            buddy.style.width = buddyTimeWorkedPerc + "%";
+            buddy.style.marginLeft = buddyTimeWaitPerc + "%";
+
+            loophly.style.width = loophlyTimeWorkedPerc + "%";
+            loophly.style.marginLeft = loophlyTimeWaitPerc + "%";
+
+            kallisto.style.width = kallistoTimeWorkedPerc + "%";
+            kallisto.style.marginLeft = kallistoTimeWaitPerc + "%";
+            
+            midly.style.width = midlyTimeWorkedPerc + "%";
+            midly.style.marginLeft = midlyTimeWaitPerc + "%";
+
+            vertical.style.width = verticalTimeWorkedPerc + "%";
+            vertical.style.marginLeft = verticalTimeWaitPerc + "%";
+
+            // function that calculates how long I have worked on that project
+            function duration(time) {
+                if (Math.round(time / 30) < 12) {
+                    return (
+                        Math.round(time / 30) + " months"
+                    )                
+                } else {
+                    return (
+                        Math.round((time / 30) / 12 * 10) / 10 + " years"
+                    )                    
+                }
+            }
+
+            // render how long I have worked on that project
+            durationLovingLives.innerText =  duration(lovingLivesTimeWorked);
+            durationBuddy.innerText = duration(buddyTimeWorked);
+            durationLoophly.innerText = duration(loophlyTimeWorked);
+            durationKallisto.innerText = duration(kallistoTimeWorked);
+            durationVertical.innerText = duration(verticalTimeWorked);
+            durationMidly.innerText = duration(midlyTimeWorked);
+
+            ///////////////
+
+            console.log(startDate + 'giorno inizio generale');
+            console.log(todayDate + 'oggi');
+            console.log(timePassed + 'tempo totale trascorso');
+
+            console.log(verticalStart + 'giorno inizio vertical');
+            console.log(verticalTimeWorked + 'giorni lavorati in vertical');
+            console.log(verticalTimeWorkedPerc + 'giorni lavorati in vertical in % sui giorni totali');
+            console.log(verticalTimeWait + 'giorni trascorsi prima di iniziare vertical')
+        </script>
+        
+    </body>
+</html>
