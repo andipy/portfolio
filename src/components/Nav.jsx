@@ -17,13 +17,13 @@ const Nav = () => {
     });
 
     return (
-        <nav className={scrollY ? 'text-white bg-dark-800 fixed w-xs-full top-xs-hidden' : 'text-white bg-dark-800 fixed w-xs-full top-xs-0'}>
-            <div className="container mx-xs-auto xs-flex-row h-xs-inherit py-xs-6 py-sm-4 py-md-3 py-lg-2 align-items-center justify-content-between">
+        <nav className={scrollY ? 'text-white bg-dark-800 fixed w-xs-full top-xs-hidden z-index-5' : 'text-white bg-dark-800 fixed w-xs-full top-xs-0 z-index-5'}>
+            <div className="container mx-xs-auto flex-row-xs h-xs-inherit py-xs-6 py-sm-4 py-md-3 py-lg-2 align-items-center justify-content-between">
                 <div>logo</div>
-                <ul className="xs-flex-row">
-                    <li className="xs-inline-flex-row ml-xs-2">Item</li>
-                    <li className="xs-inline-flex-row ml-xs-2">Item</li>
-                    <li className="xs-inline-flex-row ml-xs-2">Item</li>
+                <ul className="flex-row-xs">
+                    <li className="inline-flex-row-xs ml-xs-2">Item</li>
+                    <li className="inline-flex-row-xs ml-xs-2">Item</li>
+                    <li className="inline-flex-row-xs ml-xs-2">Item</li>
                 </ul>
             </div>
         </nav>
