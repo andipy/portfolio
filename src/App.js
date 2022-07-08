@@ -7,8 +7,8 @@ import Nav from './components/Nav';
 
 import Header from './sections/Header';
 import Gantt from './sections/Gantt';
-import SectionLive from './sections/Lives';
 import Years from './sections/Years';
+import ProjectCover from './sections/ProjectCover';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Gantt />
         <Years />
-        <SectionLive />        
+        <ProjectCover />
       </ExperienceProvider>
     </div>    
   );

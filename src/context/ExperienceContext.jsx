@@ -148,7 +148,51 @@ export const ExperienceProvider = (props) => {
                     return 'Closed'
                 }
             },
-            'tags': [],
+            'project_type_tags': [
+                {
+                    icon: '',
+                    label: 'Team member'
+                }
+            ],
+            'my_roles_tags': [
+                {
+                    icon: '',
+                    label: 'Head of design'
+                },{
+                    icon: '',
+                    label: 'Product designer'
+                }
+            ],
+            'my_activities_tags': [
+                {
+                    icon: '',
+                    label: 'Low-fi wireframes'
+                },{
+                    icon: '',
+                    label: 'Mi-fi wireframes'
+                },{
+                    icon: '',
+                    label: 'High-fi wireframes'
+                },{
+                    icon: '',
+                    label: 'Production design'
+                },{
+                    icon: '',
+                    label: 'Prototyping'
+                },{
+                    icon: '',
+                    label: 'User tests'
+                },{
+                    icon: '',
+                    label: 'Design system'
+                },{
+                    icon: '',
+                    label: 'Feature testing'
+                },{
+                    icon: '',
+                    label: 'QA'
+                }
+            ],
             daysWorked: function daysWorked() {
                 return Math.round((this.end_date.getTime() - this.start_date.getTime()) / (1000 * 3600 * 24))
             },
@@ -179,7 +223,75 @@ export const ExperienceProvider = (props) => {
                     return 'Closed'
                 }
             },
-            'tags': [],
+            'project_type_tags': [
+                {
+                    icon: '',
+                    label: 'Founded startup'
+                }
+            ],
+            'my_roles_tags': [
+                {
+                    icon: '',
+                    label: 'Co-founder'
+                },{
+                    icon: '',
+                    label: 'Product designer'
+                },{
+                    icon: '',
+                    label: 'Product manager'
+                },{
+                    icon: '',
+                    label: 'Product owner'
+                },{
+                    icon: '',
+                    label: 'Product team lead'
+                }
+            ],
+            'my_activities_tags': [
+                {
+                    icon: '',
+                    label: 'Low-fi wireframes'
+                },{
+                    icon: '',
+                    label: 'Mi-fi wireframes'
+                },{
+                    icon: '',
+                    label: 'High-fi wireframes'
+                },{
+                    icon: '',
+                    label: 'Production design'
+                },{
+                    icon: '',
+                    label: 'Prototyping'
+                },{
+                    icon: '',
+                    label: 'User tests'
+                },{
+                    icon: '',
+                    label: 'Design system'
+                },{
+                    icon: '',
+                    label: 'Product roadmap'
+                },{
+                    icon: '',
+                    label: 'Sprint planning'
+                },{
+                    icon: '',
+                    label: 'Sprint review'
+                },{
+                    icon: '',
+                    label: 'Feature testing'
+                },{
+                    icon: '',
+                    label: 'QA'
+                },{
+                    icon: '',
+                    label: 'Database data analysis'
+                },{
+                    icon: '',
+                    label: 'Frontend development'
+                }
+            ],
             daysWorked: function daysWorked() {
                 return Math.round((this.end_date.getTime() - this.start_date.getTime()) / (1000 * 3600 * 24))
             },
