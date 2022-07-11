@@ -242,12 +242,36 @@ body {
     top: -134%;
     transition: all .8s;
   }
+  .top-xs-negative-110 {
+    top: -110%;
+    transition: all .8s;
+  }
+  .top-xs-negative-100 {
+    top: -100%;
+    transition: all .8s;
+  }
   .top-xs-negative-58 {
     top: -58%;
     transition: all .8s;
   }
+  .top-xs-negative-51 {
+    top: -51%;
+    transition: all .8s;
+  }
   .top-xs-negative-50 {
     top: -50%;
+    transition: all .8s;
+  }
+  .top-xs-negative-46 {
+    top: -46%;
+    transition: all .8s;
+  }
+  .top-xs-negative-44 {
+    top: -44%;
+    transition: all .8s;
+  }
+  .top-xs-negative-40 {
+    top: -40%;
     transition: all .8s;
   }
   .top-xs-negative-5 {
@@ -465,6 +489,12 @@ body {
   .h-xs-36vw {
     height: 36vw;
   }
+  .h-xs-40vw {
+    height: 40vw;
+  }
+  .h-xs-44vw {
+    height: 44vw;
+  }
   .h-xs-71vw {
     height: 71vw;
   }
@@ -666,6 +696,22 @@ body {
   .px-xs-2 {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .px-xs-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .px-xs-6 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .px-xs-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .px-xs-10 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   /* PADDING Y UTILITIES */
   .py-xs-05 {
@@ -900,6 +946,42 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-sm-negative-134 {
+    top: -134%;
+    transition: all .8s;
+  }
+  .top-sm-negative-110 {
+    top: -110%;
+    transition: all .8s;
+  }
+  .top-sm-negative-100 {
+    top: -100%;
+    transition: all .8s;
+  }
+  .top-sm-negative-58 {
+    top: -58%;
+    transition: all .8s;
+  }
+  .top-sm-negative-51 {
+    top: -51%;
+    transition: all .8s;
+  }
+  .top-sm-negative-50 {
+    top: -50%;
+    transition: all .8s;
+  }
+  .top-sm-negative-46 {
+    top: -46%;
+    transition: all .8s;
+  }
+  .top-sm-negative-44 {
+    top: -44%;
+    transition: all .8s;
+  }
+  .top-sm-negative-40 {
+    top: -40%;
+    transition: all .8s;
+  }
   .top-sm-negative-5 {
     top: -5%;
     transition: all .8s;
@@ -1115,6 +1197,12 @@ body {
   .h-sm-36vw {
     height: 36vw;
   }
+  .h-sm-40vw {
+    height: 40vw;
+  }
+  .h-sm-44vw {
+    height: 44vw;
+  }
   .h-sm-71vw {
     height: 71vw;
   }
@@ -1316,6 +1404,22 @@ body {
   .px-sm-2 {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .px-sm-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .px-sm-6 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .px-sm-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .px-sm-10 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   /* PADDING Y UTILITIES */
   .py-sm-05 {
@@ -1544,6 +1648,42 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-md-negative-134 {
+    top: -134%;
+    transition: all .8s;
+  }
+  .top-md-negative-110 {
+    top: -110%;
+    transition: all .8s;
+  }
+  .top-md-negative-100 {
+    top: -100%;
+    transition: all .8s;
+  }
+  .top-md-negative-58 {
+    top: -58%;
+    transition: all .8s;
+  }
+  .top-md-negative-51 {
+    top: -51%;
+    transition: all .8s;
+  }
+  .top-md-negative-50 {
+    top: -50%;
+    transition: all .8s;
+  }
+  .top-md-negative-46 {
+    top: -46%;
+    transition: all .8s;
+  }
+  .top-md-negative-44 {
+    top: -44%;
+    transition: all .8s;
+  }
+  .top-md-negative-40 {
+    top: -40%;
+    transition: all .8s;
+  }
   .top-md-negative-5 {
     top: -5%;
     transition: all .8s;
@@ -1759,6 +1899,12 @@ body {
   .h-md-36vw {
     height: 36vw;
   }
+  .h-md-40vw {
+    height: 40vw;
+  }
+  .h-md-44vw {
+    height: 44vw;
+  }
   .h-md-71vw {
     height: 71vw;
   }
@@ -1960,6 +2106,22 @@ body {
   .px-md-2 {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .px-md-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .px-md-6 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .px-md-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .px-md-10 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   /* PADDING Y UTILITIES */
   .py-md-05 {
@@ -2188,6 +2350,42 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-lg-negative-134 {
+    top: -134%;
+    transition: all .8s;
+  }
+  .top-lg-negative-110 {
+    top: -110%;
+    transition: all .8s;
+  }
+  .top-lg-negative-100 {
+    top: -100%;
+    transition: all .8s;
+  }
+  .top-lg-negative-58 {
+    top: -58%;
+    transition: all .8s;
+  }
+  .top-lg-negative-51 {
+    top: -51%;
+    transition: all .8s;
+  }
+  .top-lg-negative-50 {
+    top: -50%;
+    transition: all .8s;
+  }
+  .top-lg-negative-46 {
+    top: -46%;
+    transition: all .8s;
+  }
+  .top-lg-negative-44 {
+    top: -44%;
+    transition: all .8s;
+  }
+  .top-lg-negative-40 {
+    top: -40%;
+    transition: all .8s;
+  }
   .top-lg-negative-5 {
     top: -5%;
     transition: all .8s;
@@ -2403,6 +2601,12 @@ body {
   .h-lg-36vw {
     height: 36vw;
   }
+  .h-lg-40vw {
+    height: 40vw;
+  }
+  .h-lg-44vw {
+    height: 44vw;
+  }
   .h-lg-71vw {
     height: 71vw;
   }
@@ -2604,6 +2808,22 @@ body {
   .px-lg-2 {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .px-lg-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .px-lg-6 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .px-lg-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .px-lg-10 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   /* PADDING Y UTILITIES */
   .py-lg-05 {
@@ -2832,6 +3052,42 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-xl-negative-134 {
+    top: -134%;
+    transition: all .8s;
+  }
+  .top-xl-negative-110 {
+    top: -110%;
+    transition: all .8s;
+  }
+  .top-xl-negative-100 {
+    top: -100%;
+    transition: all .8s;
+  }
+  .top-xl-negative-58 {
+    top: -58%;
+    transition: all .8s;
+  }
+  .top-xl-negative-51 {
+    top: -51%;
+    transition: all .8s;
+  }
+  .top-xl-negative-50 {
+    top: -50%;
+    transition: all .8s;
+  }
+  .top-xl-negative-46 {
+    top: -46%;
+    transition: all .8s;
+  }
+  .top-xl-negative-44 {
+    top: -44%;
+    transition: all .8s;
+  }
+  .top-xl-negative-40 {
+    top: -40%;
+    transition: all .8s;
+  }
   .top-xl-negative-5 {
     top: -5%;
     transition: all .8s;
@@ -3047,6 +3303,12 @@ body {
   .h-xl-36vw {
     height: 36vw;
   }
+  .h-xl-40vw {
+    height: 40vw;
+  }
+  .h-xl-44vw {
+    height: 44vw;
+  }
   .h-xl-71vw {
     height: 71vw;
   }
@@ -3248,6 +3510,22 @@ body {
   .px-xl-2 {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .px-xl-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .px-xl-6 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .px-xl-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .px-xl-10 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   /* PADDING Y UTILITIES */
   .py-xl-05 {
@@ -3476,6 +3754,42 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-xxl-negative-134 {
+    top: -134%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-110 {
+    top: -110%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-100 {
+    top: -100%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-58 {
+    top: -58%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-51 {
+    top: -51%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-50 {
+    top: -50%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-46 {
+    top: -46%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-44 {
+    top: -44%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-40 {
+    top: -40%;
+    transition: all .8s;
+  }
   .top-xxl-negative-5 {
     top: -5%;
     transition: all .8s;
@@ -3691,6 +4005,12 @@ body {
   .h-xxl-36vw {
     height: 36vw;
   }
+  .h-xxl-40vw {
+    height: 40vw;
+  }
+  .h-xxl-44vw {
+    height: 44vw;
+  }
   .h-xxl-71vw {
     height: 71vw;
   }
@@ -3892,6 +4212,22 @@ body {
   .px-xxl-2 {
     padding-left: 2%;
     padding-right: 2%;
+  }
+  .px-xxl-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .px-xxl-6 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .px-xxl-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .px-xxl-10 {
+    padding-left: 10%;
+    padding-right: 10%;
   }
   /* PADDING Y UTILITIES */
   .py-xxl-05 {

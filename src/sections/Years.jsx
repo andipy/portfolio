@@ -2,7 +2,7 @@ import React from "react";
 
 const Years = () => {
     return (
-        <div className="container mx-xs-auto h-xs-100vh flex-column-xs flex-row-md align-items-center">
+        <div className="container mx-xs-auto h-xs-100vh flex-column-xs flex-row-md align-items-center justify-content-center">
 
             <div className="w-xs-full h-xs-71vw h-md-31vw w-md-35 h-md-31vw relative overflow-xs-hidden">
                 <div className="flex-column-xs absolute top-xs-0 years-slide">
