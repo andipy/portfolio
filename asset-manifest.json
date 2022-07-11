@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8c0488cc.css",
+    "main.js": "/portfolio/static/js/main.679ef2ed.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Profile.svg": "/portfolio/static/media/Profile.8c38411953d31efc56fcd740dbdd5044.svg",
+    "static/media/Leaderboard.svg": "/portfolio/static/media/Leaderboard.652a912c8543d2fbaaf1ab028b326c32.svg",
+    "static/media/ArtistFollowed.svg": "/portfolio/static/media/ArtistFollowed.c9b9ff7ea62b91034e1e58063692146f.svg",
+    "static/media/InviteFriend.svg": "/portfolio/static/media/InviteFriend.efd196ae5fa2c27ae8b7af3a27b1dc9d.svg",
+    "static/media/FollowedFull.svg": "/portfolio/static/media/FollowedFull.9bf623e112673d43a6a89d8f2f47e51f.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/Icon.svg": "/portfolio/static/media/Icon.aaf8c20ec45d7ed29633f1c20e32a7ad.svg",
+    "static/media/LongArrow.svg": "/portfolio/static/media/LongArrow.633da7fb090e7d028e989dad5a050cbd.svg",
+    "main.8c0488cc.css.map": "/portfolio/static/css/main.8c0488cc.css.map",
+    "main.679ef2ed.js.map": "/portfolio/static/js/main.679ef2ed.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c0488cc.css",
+    "static/js/main.679ef2ed.js"
+  ]
+}
