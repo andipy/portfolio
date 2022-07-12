@@ -102,44 +102,6 @@ body {
   color: rgb(255, 160, 45);
 }
 
-/* BACKGROUND COLOR UTILITIES */
-.bg-dark-500 {
-  background-color: rgb(49, 48, 50);
-}
-.bg-dark-800 {
-  background-color: rgb(33, 33, 33);
-}
-.bg-dark-900 {
-  background-color: rgb(23, 23, 23);
-}
-.bg-violet-50 {
-  background-color: rgb(245, 233, 255);
-}
-.bg-violet-100 {
-  background-color: rgb(234, 210, 255);
-}
-.bg-violet-200 {
-  background-color: rgb(212, 165, 255);
-}
-.bg-teal-50 {
-  background-color: rgb(229, 255, 253);
-}
-.bg-teal-100 {
-  background-color: rgb(205, 255, 251);
-}
-.bg-teal-200 {
-  background-color: rgb(150, 255, 246);
-}
-.bg-teal-300 {
-  background-color: rgb(108, 248, 236);
-}
-.bg-teal-600 {
-  background-color: rgb(13, 71, 66);
-}
-.bg-teal-300-014 {
-  background-color: rgba(108, 248, 236, 0.14);
-}
-
 /* OPACITY UTILITIES */
 .opacity-0 {
   opacity: 0;
@@ -238,8 +200,16 @@ body {
     scrollbar-width: none;  /* Firefox */
   }
   /* XY UTILITIES */
+  .top-xs-negative-180 {
+    top: -180%;
+    transition: all .8s;
+  }
   .top-xs-negative-134 {
     top: -134%;
+    transition: all .8s;
+  }
+  .top-xs-negative-125 {
+    top: -125%;
     transition: all .8s;
   }
   .top-xs-negative-110 {
@@ -248,6 +218,14 @@ body {
   }
   .top-xs-negative-100 {
     top: -100%;
+    transition: all .8s;
+  }
+  .top-xs-negative-90 {
+    top: -90%;
+    transition: all .8s;
+  }
+  .top-xs-negative-85 {
+    top: -85%;
     transition: all .8s;
   }
   .top-xs-negative-58 {
@@ -272,6 +250,14 @@ body {
   }
   .top-xs-negative-40 {
     top: -40%;
+    transition: all .8s;
+  }
+  .top-xs-negative-36 {
+    top: -36%;
+    transition: all .8s;
+  }
+  .top-xs-negative-23 {
+    top: -23%;
     transition: all .8s;
   }
   .top-xs-negative-5 {
@@ -436,6 +422,9 @@ body {
     height: inherit;
   }
 
+  .h-xs-70vh {
+    height: 70vh;
+  }
   .h-xs-80vh {
     height: 80vh;
   }
@@ -936,6 +925,44 @@ body {
   .rounded-xs-08 {
     border-radius: .8rem;
   }
+
+  /* BACKGROUND COLOR UTILITIES */
+  .bg-dark-500-xs {
+    background-color: rgb(49, 48, 50);
+  }
+  .bg-dark-800-xs {
+    background-color: rgb(33, 33, 33);
+  }
+  .bg-dark-900-xs {
+    background-color: rgb(23, 23, 23);
+  }
+  .bg-violet-50-xs {
+    background-color: rgb(245, 233, 255);
+  }
+  .bg-violet-100-xs {
+    background-color: rgb(234, 210, 255);
+  }
+  .bg-violet-200-xs {
+    background-color: rgb(212, 165, 255);
+  }
+  .bg-teal-50-xs {
+    background-color: rgb(229, 255, 253);
+  }
+  .bg-teal-100-xs {
+    background-color: rgb(205, 255, 251);
+  }
+  .bg-teal-200-xs {
+    background-color: rgb(150, 255, 246);
+  }
+  .bg-teal-300-xs {
+    background-color: rgb(108, 248, 236);
+  }
+  .bg-teal-600-xs {
+    background-color: rgb(13, 71, 66);
+  }
+  .bg-teal-300-014-xs {
+    background-color: rgba(108, 248, 236, 0.14);
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -946,8 +973,16 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-sm-negative-180 {
+    top: -180%;
+    transition: all .8s;
+  }
   .top-sm-negative-134 {
     top: -134%;
+    transition: all .8s;
+  }
+  .top-sm-negative-125 {
+    top: -125%;
     transition: all .8s;
   }
   .top-sm-negative-110 {
@@ -956,6 +991,14 @@ body {
   }
   .top-sm-negative-100 {
     top: -100%;
+    transition: all .8s;
+  }
+  .top-sm-negative-90 {
+    top: -90%;
+    transition: all .8s;
+  }
+  .top-sm-negative-85 {
+    top: -85%;
     transition: all .8s;
   }
   .top-sm-negative-58 {
@@ -980,6 +1023,14 @@ body {
   }
   .top-sm-negative-40 {
     top: -40%;
+    transition: all .8s;
+  }
+  .top-sm-negative-36 {
+    top: -36%;
+    transition: all .8s;
+  }
+  .top-sm-negative-23 {
+    top: -23%;
     transition: all .8s;
   }
   .top-sm-negative-5 {
@@ -1144,6 +1195,9 @@ body {
     height: inherit;
   }
 
+  .h-sm-70vh {
+    height: 70vh;
+  }
   .h-sm-80vh {
     height: 80vh;
   }
@@ -1638,6 +1692,44 @@ body {
   .rounded-sm-08 {
     border-radius: .8rem;
   }
+
+  /* BACKGROUND COLOR UTILITIES */
+  .bg-dark-500-sm {
+    background-color: rgb(49, 48, 50);
+  }
+  .bg-dark-800-sm {
+    background-color: rgb(33, 33, 33);
+  }
+  .bg-dark-900-sm {
+    background-color: rgb(23, 23, 23);
+  }
+  .bg-violet-50-sm {
+    background-color: rgb(245, 233, 255);
+  }
+  .bg-violet-100-sm {
+    background-color: rgb(234, 210, 255);
+  }
+  .bg-violet-200-sm {
+    background-color: rgb(212, 165, 255);
+  }
+  .bg-teal-50-sm {
+    background-color: rgb(229, 255, 253);
+  }
+  .bg-teal-100-sm {
+    background-color: rgb(205, 255, 251);
+  }
+  .bg-teal-200-sm {
+    background-color: rgb(150, 255, 246);
+  }
+  .bg-teal-300-sm {
+    background-color: rgb(108, 248, 236);
+  }
+  .bg-teal-600-sm {
+    background-color: rgb(13, 71, 66);
+  }
+  .bg-teal-300-014-sm {
+    background-color: rgba(108, 248, 236, 0.14);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1648,8 +1740,16 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-md-negative-180 {
+    top: -180%;
+    transition: all .8s;
+  }
   .top-md-negative-134 {
     top: -134%;
+    transition: all .8s;
+  }
+  .top-md-negative-125 {
+    top: -125%;
     transition: all .8s;
   }
   .top-md-negative-110 {
@@ -1658,6 +1758,14 @@ body {
   }
   .top-md-negative-100 {
     top: -100%;
+    transition: all .8s;
+  }
+  .top-md-negative-90 {
+    top: -90%;
+    transition: all .8s;
+  }
+  .top-md-negative-85 {
+    top: -85%;
     transition: all .8s;
   }
   .top-md-negative-58 {
@@ -1682,6 +1790,14 @@ body {
   }
   .top-md-negative-40 {
     top: -40%;
+    transition: all .8s;
+  }
+  .top-md-negative-36 {
+    top: -36%;
+    transition: all .8s;
+  }
+  .top-md-negative-23 {
+    top: -23%;
     transition: all .8s;
   }
   .top-md-negative-5 {
@@ -1846,6 +1962,9 @@ body {
     height: inherit;
   }
 
+  .h-md-70vh {
+    height: 70vh;
+  }
   .h-md-80vh {
     height: 80vh;
   }
@@ -2340,6 +2459,44 @@ body {
   .rounded-md-08 {
     border-radius: .8rem;
   }
+
+  /* BACKGROUND COLOR UTILITIES */
+  .bg-dark-500-md {
+    background-color: rgb(49, 48, 50);
+  }
+  .bg-dark-800-md {
+    background-color: rgb(33, 33, 33);
+  }
+  .bg-dark-900-md {
+    background-color: rgb(23, 23, 23);
+  }
+  .bg-violet-50-md {
+    background-color: rgb(245, 233, 255);
+  }
+  .bg-violet-100-md {
+    background-color: rgb(234, 210, 255);
+  }
+  .bg-violet-200-md {
+    background-color: rgb(212, 165, 255);
+  }
+  .bg-teal-50-md {
+    background-color: rgb(229, 255, 253);
+  }
+  .bg-teal-100-md {
+    background-color: rgb(205, 255, 251);
+  }
+  .bg-teal-200-md {
+    background-color: rgb(150, 255, 246);
+  }
+  .bg-teal-300-md {
+    background-color: rgb(108, 248, 236);
+  }
+  .bg-teal-600-md {
+    background-color: rgb(13, 71, 66);
+  }
+  .bg-teal-300-014-md {
+    background-color: rgba(108, 248, 236, 0.14);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -2350,8 +2507,16 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-lg-negative-180 {
+    top: -180%;
+    transition: all .8s;
+  }
   .top-lg-negative-134 {
     top: -134%;
+    transition: all .8s;
+  }
+  .top-lg-negative-125 {
+    top: -125%;
     transition: all .8s;
   }
   .top-lg-negative-110 {
@@ -2360,6 +2525,14 @@ body {
   }
   .top-lg-negative-100 {
     top: -100%;
+    transition: all .8s;
+  }
+  .top-lg-negative-90 {
+    top: -90%;
+    transition: all .8s;
+  }
+  .top-lg-negative-85 {
+    top: -85%;
     transition: all .8s;
   }
   .top-lg-negative-58 {
@@ -2384,6 +2557,14 @@ body {
   }
   .top-lg-negative-40 {
     top: -40%;
+    transition: all .8s;
+  }
+  .top-lg-negative-36 {
+    top: -36%;
+    transition: all .8s;
+  }
+  .top-lg-negative-23 {
+    top: -23%;
     transition: all .8s;
   }
   .top-lg-negative-5 {
@@ -2548,6 +2729,9 @@ body {
     height: inherit;
   }
 
+  .h-lg-70vh {
+    height: 70vh;
+  }
   .h-lg-80vh {
     height: 80vh;
   }
@@ -3042,6 +3226,44 @@ body {
   .rounded-lg-08 {
     border-radius: .8rem;
   }
+
+  /* BACKGROUND COLOR UTILITIES */
+  .bg-dark-500-lg {
+    background-color: rgb(49, 48, 50);
+  }
+  .bg-dark-800-lg {
+    background-color: rgb(33, 33, 33);
+  }
+  .bg-dark-900-lg {
+    background-color: rgb(23, 23, 23);
+  }
+  .bg-violet-50-lg {
+    background-color: rgb(245, 233, 255);
+  }
+  .bg-violet-100-lg {
+    background-color: rgb(234, 210, 255);
+  }
+  .bg-violet-200-lg {
+    background-color: rgb(212, 165, 255);
+  }
+  .bg-teal-50-lg {
+    background-color: rgb(229, 255, 253);
+  }
+  .bg-teal-100-lg {
+    background-color: rgb(205, 255, 251);
+  }
+  .bg-teal-200-lg {
+    background-color: rgb(150, 255, 246);
+  }
+  .bg-teal-300-lg {
+    background-color: rgb(108, 248, 236);
+  }
+  .bg-teal-600-lg {
+    background-color: rgb(13, 71, 66);
+  }
+  .bg-teal-300-014-lg {
+    background-color: rgba(108, 248, 236, 0.14);
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -3052,8 +3274,16 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-xl-negative-180 {
+    top: -180%;
+    transition: all .8s;
+  }
   .top-xl-negative-134 {
     top: -134%;
+    transition: all .8s;
+  }
+  .top-xl-negative-125 {
+    top: -125%;
     transition: all .8s;
   }
   .top-xl-negative-110 {
@@ -3062,6 +3292,14 @@ body {
   }
   .top-xl-negative-100 {
     top: -100%;
+    transition: all .8s;
+  }
+  .top-xl-negative-90 {
+    top: -90%;
+    transition: all .8s;
+  }
+  .top-xl-negative-85 {
+    top: -85%;
     transition: all .8s;
   }
   .top-xl-negative-58 {
@@ -3086,6 +3324,14 @@ body {
   }
   .top-xl-negative-40 {
     top: -40%;
+    transition: all .8s;
+  }
+  .top-xl-negative-36 {
+    top: -36%;
+    transition: all .8s;
+  }
+  .top-xl-negative-23 {
+    top: -23%;
     transition: all .8s;
   }
   .top-xl-negative-5 {
@@ -3250,6 +3496,9 @@ body {
     height: inherit;
   }
 
+  .h-xl-70vh {
+    height: 70vh;
+  }
   .h-xl-80vh {
     height: 80vh;
   }
@@ -3744,6 +3993,44 @@ body {
   .rounded-xl-08 {
     border-radius: .8rem;
   }
+
+  /* BACKGROUND COLOR UTILITIES */
+  .bg-dark-500-xl {
+    background-color: rgb(49, 48, 50);
+  }
+  .bg-dark-800-xl {
+    background-color: rgb(33, 33, 33);
+  }
+  .bg-dark-900-xl {
+    background-color: rgb(23, 23, 23);
+  }
+  .bg-violet-50-xl {
+    background-color: rgb(245, 233, 255);
+  }
+  .bg-violet-100-xl {
+    background-color: rgb(234, 210, 255);
+  }
+  .bg-violet-200-xl {
+    background-color: rgb(212, 165, 255);
+  }
+  .bg-teal-50-xl {
+    background-color: rgb(229, 255, 253);
+  }
+  .bg-teal-100-xl {
+    background-color: rgb(205, 255, 251);
+  }
+  .bg-teal-200-xl {
+    background-color: rgb(150, 255, 246);
+  }
+  .bg-teal-300-xl {
+    background-color: rgb(108, 248, 236);
+  }
+  .bg-teal-600-xl {
+    background-color: rgb(13, 71, 66);
+  }
+  .bg-teal-300-014-xl {
+    background-color: rgba(108, 248, 236, 0.14);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -3754,8 +4041,16 @@ body {
     width: var(--container);
   }
   /* XY UTILITIES */
+  .top-xxl-negative-180 {
+    top: -180%;
+    transition: all .8s;
+  }
   .top-xxl-negative-134 {
     top: -134%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-125 {
+    top: -125%;
     transition: all .8s;
   }
   .top-xxl-negative-110 {
@@ -3764,6 +4059,14 @@ body {
   }
   .top-xxl-negative-100 {
     top: -100%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-90 {
+    top: -90%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-85 {
+    top: -85%;
     transition: all .8s;
   }
   .top-xxl-negative-58 {
@@ -3788,6 +4091,14 @@ body {
   }
   .top-xxl-negative-40 {
     top: -40%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-36 {
+    top: -36%;
+    transition: all .8s;
+  }
+  .top-xxl-negative-23 {
+    top: -23%;
     transition: all .8s;
   }
   .top-xxl-negative-5 {
@@ -3952,6 +4263,9 @@ body {
     height: inherit;
   }
 
+  .h-xxl-70vh {
+    height: 70vh;
+  }
   .h-xxl-80vh {
     height: 80vh;
   }
@@ -4445,5 +4759,43 @@ body {
   }
   .rounded-xxl-08 {
     border-radius: .8rem;
+  }
+
+  /* BACKGROUND COLOR UTILITIES */
+  .bg-dark-500-xxl {
+    background-color: rgb(49, 48, 50);
+  }
+  .bg-dark-800-xxl {
+    background-color: rgb(33, 33, 33);
+  }
+  .bg-dark-900-xxl {
+    background-color: rgb(23, 23, 23);
+  }
+  .bg-violet-50-xxl {
+    background-color: rgb(245, 233, 255);
+  }
+  .bg-violet-100-xxl {
+    background-color: rgb(234, 210, 255);
+  }
+  .bg-violet-200-xxl {
+    background-color: rgb(212, 165, 255);
+  }
+  .bg-teal-50-xxl {
+    background-color: rgb(229, 255, 253);
+  }
+  .bg-teal-100-xxl {
+    background-color: rgb(205, 255, 251);
+  }
+  .bg-teal-200-xxl {
+    background-color: rgb(150, 255, 246);
+  }
+  .bg-teal-300-xxl {
+    background-color: rgb(108, 248, 236);
+  }
+  .bg-teal-600-xxl {
+    background-color: rgb(13, 71, 66);
+  }
+  .bg-teal-300-014-xxl {
+    background-color: rgba(108, 248, 236, 0.14);
   }
 }

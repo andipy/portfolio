@@ -17,7 +17,7 @@ const Nav = () => {
     });
 
     return (
-        <nav className={scrollY ? 'text-white bg-dark-800 fixed w-xs-full top-xs-hidden z-index-5' : 'text-white bg-dark-800 fixed w-xs-full top-xs-0 z-index-5'}>
+        <nav className={scrollY ? 'text-white bg-dark-800-xs fixed w-xs-full top-xs-hidden z-index-5' : 'text-white bg-dark-800-xs fixed w-xs-full top-xs-0 z-index-5'}>
             <div className="container mx-xs-auto flex-row-xs h-xs-inherit py-xs-6 py-sm-4 py-md-3 py-lg-2 align-items-center justify-content-between">
                 <div>logo</div>
                 <ul className="flex-row-xs">

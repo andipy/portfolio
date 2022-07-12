@@ -12,12 +12,12 @@ const Years = () => {
             </div>
 
             <div className="w-xs-full w-md-65 flex-column-xs">
-                <p className="w-xs-full h-xs-auto h-md-3vw font-size-xs-1_5rem font-size-md-2_6vw text-white">years of professional experience as a</p>
-                <p className="w-xs-full h-xs-auto h-md-14vw font-size-xs-20vw font-size-md-14vw font-weight-xs-600 line-height-80 text-teal-300 letter-spacing-xs-negative-_4rem letter-spacing-md-negative-_8rem letter-spacing-lg-negative-1_2rem letter-spacing-xl-negative-1_5rem">product</p>
+                <p className="w-xs-full h-xs-auto h-md-3vw font-size-xs-1_5rem font-size-md-2_6vw text-teal-500">years of professional experience as a</p>
+                <p className="w-xs-full h-xs-auto h-md-14vw font-size-xs-20vw font-size-md-14vw font-weight-xs-600 line-height-80 text-teal-300 letter-spacing-xs-negative-_4rem letter-spacing-md-negative-_8rem letter-spacing-lg-negative-1_2rem letter-spacing-xl-negative-1_5rem text-teal-500">product</p>
                 <div className="h-xs-20vw h-md-14vw relative overflow-xs-hidden">
                     <div className="w-xs-full absolute top-xs-0 years-slide">
-                        <p className="bg-violet-50 w-xs-full h-xs-20vw h-md-14vw font-size-xs-20vw font-size-md-14vw font-weight-xs-600 line-height-80 text-teal-500 letter-spacing-xs-negative-_4rem letter-spacing-md-negative-_8rem letter-spacing-lg-negative-1_2rem letter-spacing-xl-negative-1_5rem">designer</p>
-                        <p className="bg-teal-50 w-xs-full h-xs-20vw h-md-14vw font-size-xs-20vw font-size-md-14vw font-weight-xs-600 line-height-80 text-teal-500 letter-spacing-xs-negative-_4rem letter-spacing-md-negative-_8rem letter-spacing-lg-negative-1_2rem letter-spacing-xl-negative-1_5rem">manager</p>
+                        <p className="w-xs-full h-xs-20vw h-md-14vw font-size-xs-20vw font-size-md-14vw font-weight-xs-600 line-height-80 text-teal-300 letter-spacing-xs-negative-_4rem letter-spacing-md-negative-_8rem letter-spacing-lg-negative-1_2rem letter-spacing-xl-negative-1_5rem">designer</p>
+                        <p className="w-xs-full h-xs-20vw h-md-14vw font-size-xs-20vw font-size-md-14vw font-weight-xs-600 line-height-80 text-teal-300 letter-spacing-xs-negative-_4rem letter-spacing-md-negative-_8rem letter-spacing-lg-negative-1_2rem letter-spacing-xl-negative-1_5rem">manager</p>
                     </div>
                 </div>
             </div>
